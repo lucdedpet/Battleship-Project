@@ -1,0 +1,27 @@
+Meeting Agenda
+Date/Location: 31-Aug-2015 at 12.30 in BA405
+Information Updates/Reminders
+=============================
+* The next two weeks are going to be about understanding the
+legacy Battleship code base so that we can plan for the work to
+fix and improve it.
+
+* Everyone should be able to use git, github wiki’s and Trello.
+Ask for help if that’s a problem.
+
+* We’ll be using toggl.com to keep track of time.
+
+* The Programming Help Desk ATC620 is available to help us with
+programming for this unit.
+
+Decisions Needed
+================
+* What conversion tool to use.
+
+* What coding standards to use. 
+
+General Items
+=============
+* What work has been accomplished by the next meeting.
+
+* Any issues with understanding the requested items.

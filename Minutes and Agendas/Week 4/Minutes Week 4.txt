@@ -1,0 +1,38 @@
+Date/Location: 26-AUG-2015, EN310
+Attendees: LDP, ANS
+Start Time: 16.00
+End Time: 17.30
+
+Decisions
+=========
+* Weekly meetings take place every Tuesday at 12.30 in the Swinburne Library
+
+* Trello board created, Lucien will invite other team members
+
+Actions
+=======
+* Lucien: Invite other team members to Trello board
+
+* Everyone: Download old code and run it
+
+* Adeel: Add wiki pages
+
+* Lucien: Set up repo on github and invite members
+
+* Lucien: find and list functional issues
+
+* Lucien: list all the files
+
+* Adeel: Research tools to convert VB to C#
+
+* Adeel: What files are not used or needed
+
+* Lucien: Coding standards to use in project
+
+* Lucien: Find obvious TODO, BUG, FIXME comments in code
+
+* Adeel: Amount of code documented and if converted what to add
+
+* Everyone: Add Trello cards
+
+* Everyone: list on new features and ideas to be added
