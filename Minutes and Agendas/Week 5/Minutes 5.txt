@@ -1,0 +1,18 @@
+Date/Location: 01-Sep-2015, Library 1I
+Attendees: LDP, ANS
+Start Time: 12:30
+End Time: 13:30
+
+Decisions
+=========
+* Code conversion will be achieved by using the online tool Telerik
+
+* Coding conventions for C# programming will be based on Microsoft's conventions
+
+Actions
+=======
+* Adeel: Convert code
+
+* Lucien: Make sure coding conventions are kept after conversion
+
+* Everyone: Bug identification and location (specific files)
