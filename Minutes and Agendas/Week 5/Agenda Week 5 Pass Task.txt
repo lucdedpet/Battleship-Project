@@ -1,0 +1,50 @@
+Date/Location: 2-Sep-2015 at 15:30 in EN310
+
+Information Updates/Reminders
+=============================
+* Last week was about analysing the legacy code.
+
+* This week is about converting and documenting the code
+
+* Next week we will use a sprint process over two weeks to fix
+  bugs and extend the project. (No bug fixing or extensions yet!)
+
+* Everyone should be able to use the team git repo, github wiki’s
+  and Trello. Ask for help (tutor or team) if that’s a problem.
+
+* Everyone should have used toggl.com to track their time last week.
+  Also track time on tasks this week with Toggl.
+
+* Tutor must be added to github, trello and toggl.
+
+* The Programming Help Desk ATC620 is *still* available to help us
+  with programming for this unit.
+
+Decisions Needed
+================
+* What tool(s) will be used to do the conversion, based on the report?
+
+* What coding standard will be used for C#, based on the report?
+
+General Items
+=============
+* Add tutor account to team tools (github, wiki, toggle)
+
+* Code needs to be converted, and the converted code committed to
+  the repository. (Note – repository must start with VB code.)
+
+* Converted code will need the appropriate SwinGame files to build
+  and run the C# code.
+
+* Missing code documentation (identified by report) needs to be
+  fixed in the converted code. Can be shared by several people
+
+* Converted and running code functionality needs to be checked to
+  make sure it is the same as before (Validation). Suggest a
+  checklist (list of functions?) to document the before and after
+  result.
+
+* There may be missing features, bugs or extension ideas that have
+  not been identified and documented. This will be needed for the
+  up-coming two-week sprint, so we should continue to look for these
+  and note what they are. 
