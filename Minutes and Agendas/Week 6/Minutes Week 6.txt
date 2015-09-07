@@ -1,0 +1,10 @@
+Date/Location: DD-MMM-YYYY, (room)
+Attendees: -------
+Start Time: XX:XX
+End Time: XX:XX
+
+Decisions
+=========
+
+Actions
+=======
