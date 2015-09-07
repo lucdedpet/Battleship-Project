@@ -6,7 +6,7 @@ using System.Data;
 using System.Diagnostics;
 using SwinGameSDK;
 
-namespace battleshipproj
+namespace battleship
 {
 	static class GameLogic
 	{
