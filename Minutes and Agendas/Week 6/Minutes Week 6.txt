@@ -1,10 +1,21 @@
-Date/Location: DD-MMM-YYYY, (room)
-Attendees: -------
-Start Time: XX:XX
-End Time: XX:XX
+Date/Location: 07-Sep-2015, 1G Library
+Attendees: LDP, SJB
+Start Time: 13:45
+End Time: 13:57
 
 Decisions
 =========
+* Trello task assignment: Since the errors coincide with each other it would be simpler
+  to have members assign themselves to cards instead of individual lists
+
+* New main branch from which everyone will work off of, is 'cs-convert'
 
 Actions
 =======
+* Everyone: Assign themselves to an error and work on it, show workings on github
+
+* James: Update error list, because errors have changed since fixing them
+
+* Everyone: Once all errors have been fixed, merge into 'cs-convert' and start documenting individual methods
+  (If using Xamarin, commenting can be done by adding a '///' above the method, which creates an XML style 
+  of commenting which you can then edit)
