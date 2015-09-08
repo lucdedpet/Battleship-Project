@@ -1,5 +1,3 @@
-
-using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -24,7 +22,7 @@ namespace battleship
 		/// </remarks>
 		public static void HandleDiscoveryInput()
 		{
-			if (SwinGame.KeyTyped(KeyCode.VK_ESCAPE)) {
+			if (SwinGame.KeyTyped(KeyCode.vK_ESCAPE)) {
 				AddNewState(GameState.ViewingGameMenu);
 			}
 
@@ -45,8 +43,8 @@ namespace battleship
 			//Calculate the row/col clicked
 			int row = 0;
 			int col = 0;
-			row = Convert.ToInt32(Math.Floor((mouse.Y - FIELD_TOP) / (CELL_HEIGHT + CELL_GAP)));
-			col = Convert.ToInt32(Math.Floor((mouse.X - FIELD_LEFT) / (CELL_WIDTH + CELL_GAP)));
+			row = Convert.ToInt32(Math.Floor((mouse.Y - FIELD_TOP) / (UtilityFunctions.CELL_HEIGHT + UtilityFunctions.CELL_GAP)));
+			col = Convert.ToInt32(Math.Floor((mouse.X - FIELD_LEFT) / (UtilityFunctions.CELL_WIDTH + UtilityFunctions.CELL_GAP)));
 
 			if (row >= 0 & row < HumanPlayer.EnemyGrid.Height) {
 				if (col >= 0 & col < HumanPlayer.EnemyGrid.Width) {
@@ -65,7 +63,7 @@ namespace battleship
 			const int HITS_TOP = 206;
 			const int SPLASH_TOP = 256;
 
-			if ((SwinGame.KeyDown(KeyCode.VK_LSHIFT) | SwinGame.KeyDown(KeyCode.VK_RSHIFT)) & SwinGame.KeyDown(KeyCode.VK_C)) {
+			if ((SwinGame.KeyDown(KeyCode.vK_LSHIFT) | SwinGame.KeyDown(KeyCode.vK_RSHIFT)) & SwinGame.KeyDown(KeyCode.vK_C)) {
 				DrawField(HumanPlayer.EnemyGrid, ComputerPlayer, true);
 			} else {
 				DrawField(HumanPlayer.EnemyGrid, ComputerPlayer, false);
