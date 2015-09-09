@@ -1,0 +1,25 @@
+Meeting Agenda
+Date/Location: 07-Sep-2015 at 13:30 in 1G Library
+Information Updates/Reminders
+=============================
+* The next two weeks are going to be about understanding the
+legacy Battleship code base so that we can plan for the work to
+fix and improve it.
+
+* Everyone should be able to use git, github wiki’s and Trello.
+Ask for help if that’s a problem.
+
+* We’ll be using toggl.com to keep track of time.
+
+* The Programming Help Desk ATC620 is available to help us with
+programming for this unit.
+
+Decisions Needed
+================
+* A different main branch, other than 'master', to work off of and merge back into
+
+* Trello task assignment procedure. Assign member to card OR drag cards to individual member lists
+
+General Items
+=============
+* Work that has been accomplished so far
