@@ -17,7 +17,7 @@ namespace battleship
 
 		protected static Random _Random = new Random();
 		private Dictionary<ShipName, Ship> _Ships = new Dictionary<ShipName, Ship>();
-		private SeaGrid _playerGrid = new SeaGrid(_Ships);
+		private SeaGrid _playerGrid;
 		private ISeaGrid _enemyGrid;
 
 		protected BattleShipsGame _game;
@@ -45,6 +45,7 @@ namespace battleship
 
 		public Player(BattleShipsGame controller)
 		{
+			_playerGrid = new SeaGrid (_Ships);
 			_game = controller;
 
 			//for each ship add the ships name so the seagrid knows about them
@@ -91,8 +92,8 @@ namespace battleship
 		/// <value>The ship</value>
 		/// <returns>The ship with the indicated name</returns>
 		/// <remarks>The none ship returns nothing/null</remarks>
-		public Ship Ship {
-			get {
+		public Ship Ship(ShipName name) {
+			{
 				if (name == ShipName.None)
 					return null;
 
