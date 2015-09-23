@@ -125,11 +125,7 @@ namespace battleship
 						throw new ApplicationException("AI has gone in an invalid state");
 				}
 
-<<<<<<< HEAD
 			} while ((row < 0 || column < 0 || row >= EnemyGrid.Height || column >= EnemyGrid.Width || EnemyGrid[row, column] != TileView.Sea));
-=======
-			} while ((row < 0 || column < 0 || row >= EnemyGrid.Height || column >= EnemyGrid.Width || EnemyGrid.Item[row, column] != TileView.Sea));
->>>>>>> 61841e6a7672c528a7e423bf5774d5e6f30780ff
 			//while inside the grid and not a sea tile do the search
 		}
 
@@ -355,11 +351,7 @@ namespace battleship
 		private void AddTarget(int row, int column)
 		{
 
-<<<<<<< HEAD
 			if ((row >= 0 && column >= 0 && row < EnemyGrid.Height && column < EnemyGrid.Width && EnemyGrid[row, column] == TileView.Sea)) {
-=======
-			if ((row >= 0 && column >= 0 && row < EnemyGrid.Height && column < EnemyGrid.Width && EnemyGrid.Item[row, column] == TileView.Sea)) {
->>>>>>> 61841e6a7672c528a7e423bf5774d5e6f30780ff
 				_Targets.Push(new Target(new Location(row, column), _CurrentTarget.ShotAt));
 			}
 		}
