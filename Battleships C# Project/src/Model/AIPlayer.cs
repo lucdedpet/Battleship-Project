@@ -3,7 +3,7 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
+
 using System.Diagnostics;
 using SwinGameSDK;
 
@@ -119,7 +119,7 @@ namespace battleship
 				result = _game.Shoot(row, column);
 				//take shot
 				ProcessShot(row, column, result);
-			} while (result.Value != ResultOfAttack.Miss && result.Value != ResultOfAttack.GameOver && !SwinGame.WindowCloseRequested);
+			} while (result.Value != ResultOfAttack.Miss && result.Value != ResultOfAttack.GameOver && !SwinGame.WindowCloseRequested());
 
 			return result;
 		}
@@ -132,7 +132,7 @@ namespace battleship
 			int i = 0;
 			for (i = 0; i <= 150; i++) {
 				//Dont delay if window is closed
-				if (SwinGame.WindowCloseRequested)
+				if (SwinGame.WindowCloseRequested())
 					return;
 
 				SwinGame.Delay(5);
