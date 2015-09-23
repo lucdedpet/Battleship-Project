@@ -32,7 +32,7 @@ namespace battleship
 		/// <value>what the player can see at that location</value>
 		/// <returns>what the player can see at that location</returns>
 
-		TileView Item { get; }
+        TileView this[int x, int y] { get; }
 		/// <summary>
 		/// Mark the indicated tile as shot.
 		/// </summary>

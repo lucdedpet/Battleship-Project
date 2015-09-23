@@ -88,7 +88,4 @@ E:\OneDrive\BA-CS\COS20007_HS2_HAW - Object Oriented Programming\Resources\CShar
 E:\OneDrive\BA-CS\COS20007_HS2_HAW - Object Oriented Programming\Resources\CSharpSwinGameTemplate\bin\Debug\MyGame.exe
 E:\OneDrive\BA-CS\COS20007_HS2_HAW - Object Oriented Programming\Resources\CSharpSwinGameTemplate\bin\Debug\MyGame.pdb
 E:\OneDrive\BA-CS\COS20007_HS2_HAW - Object Oriented Programming\Resources\CSharpSwinGameTemplate\bin\Debug\SwinGame.dll
-D:\UNI\GIT_FOLDER\Battleship-Project\Battleships C# Project\obj\x86\Debug\MyGame.csprojResolveAssemblyReference.cache
-D:\UNI\GIT_FOLDER\Battleship-Project\Battleships C# Project\obj\x86\Debug\MyGame.exe
-D:\UNI\GIT_FOLDER\Battleship-Project\Battleships C# Project\obj\x86\Debug\MyGame.pdb
 E:\OneDrive\Documents\GitHub\Battleship-Project\Battleships C# Project\obj\x86\Debug\MyGame.csprojResolveAssemblyReference.cache
