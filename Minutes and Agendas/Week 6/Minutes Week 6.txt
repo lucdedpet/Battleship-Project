@@ -16,6 +16,8 @@ Actions
 
 * James: Update error list, because errors have changed since fixing them
 
+* Adeel: Add detailed descriptions to project's functions, classes and variables
+
 * Everyone: Once all errors have been fixed, merge into 'cs-convert' and start documenting individual methods
   (If using Xamarin, commenting can be done by adding a '///' above the method, which creates an XML style 
   of commenting which you can then edit)
