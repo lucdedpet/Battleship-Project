@@ -120,7 +120,7 @@ namespace battleship
 				//take shot
 				ProcessShot(row, column, result);
 			} while (result.Value != ResultOfAttack.Miss && result.Value != ResultOfAttack.GameOver && !SwinGame.WindowCloseRequested());
-
+		//	while (result.Value != ResultOfAttack.Miss && result.Value != ResultOfAttack.GameOver && !SwinGame.WindowCloseRequested());
 			return result;
 		}
 
@@ -135,7 +135,7 @@ namespace battleship
 				if (SwinGame.WindowCloseRequested())
 					return;
 
-				SwinGame.Delay(5);
+				SwinGame.Delay(1);
 				SwinGame.ProcessEvents();
 				SwinGame.RefreshScreen();
 			}
