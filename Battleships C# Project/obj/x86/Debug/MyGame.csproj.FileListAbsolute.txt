@@ -93,3 +93,5 @@ D:\UNI\GIT_FOLDER\Battleship-Project\Battleships C# Project\bin\Debug\MyGame.exe
 D:\UNI\GIT_FOLDER\Battleship-Project\Battleships C# Project\obj\x86\Debug\MyGame.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\ProjectTemplate\bin\Debug\MyGame.exe.config
 C:\Users\User\Desktop\ProjectTemplate\obj\x86\Debug\MyGame.csprojResolveAssemblyReference.cache
+C:\Users\Lucien\Desktop\Battleship-Project\Battleships C# Project\bin\Debug\MyGame.exe.config
+C:\Users\Lucien\Desktop\Battleship-Project\Battleships C# Project\obj\x86\Debug\MyGame.csprojResolveAssemblyReference.cache
