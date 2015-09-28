@@ -1,0 +1,19 @@
+Date/Location: 28-Sep-2015, Library 1I
+Attendees: LDP, SJB
+Start Time: 13:30
+End Time: 14:30
+
+Decisions
+=========
+Game crashing bugs and features will be postponed until all visual bugs have been fixed
+
+Group members should assign themselves to a card after the Wednesday lab, even if they do not start 
+working on it immediately. This is in order to keep track of workloads.
+
+Actions
+=======
+Sam: Fixing shots counter bug and high score name entry bug.
+
+Lucien: Fixing ship placement bugs 2.1 and 2.2
+
+James: Fixing ship placement bug 3.1
