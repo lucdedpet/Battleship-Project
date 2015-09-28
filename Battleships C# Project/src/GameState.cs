@@ -53,6 +53,11 @@ namespace battleship
 		/// <summary>
 		/// The player has quit. Show ending credits and terminate the game
 		/// </summary>
-		Quitting
+		Quitting,
+
+		/// <summary>
+		/// The turning off sound option.
+		/// </summary>
+		TurningOffSound
 	}
 }

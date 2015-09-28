@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Microsoft (R) Visual C# Compiler version 4.6.0081.0
 for C# 5
 Copyright (C) Microsoft Corporation. All rights reserved.
@@ -6,3 +7,6 @@ This compiler is provided as part of the Microsoft (R) .NET Framework, but only 
 
 src\Model\AIPlayer.cs(23,19): warning CS0660: 'battleship.AIPlayer.Location' defines operator == or operator != but does not override Object.Equals(object o)
 src\Model\AIPlayer.cs(23,19): warning CS0661: 'battleship.AIPlayer.Location' defines operator == or operator != but does not override Object.GetHashCode()
+=======
+Compilation succeeded - 5 warning(s)
+>>>>>>> sam-fix
