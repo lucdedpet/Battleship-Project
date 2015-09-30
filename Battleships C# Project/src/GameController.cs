@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
-//using battleship;
+//using MyGame;
 //using UtilityFunctions;
 //using GameResources;
 //using DeploymentController;
@@ -15,7 +15,7 @@ using SwinGameSDK;
 //using HighScoreController;
 
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// The GameController is responsible for controlling the game,
@@ -86,6 +86,9 @@ namespace battleship
 
 			//create the players
 			switch (_aiSetting) {
+                case AIOption.Easy:
+                    _ai = new AIEasyPlayer(_theGame);
+                    break;
 				case AIOption.Medium:
 					_ai = new AIMediumPlayer(_theGame);
 					break;

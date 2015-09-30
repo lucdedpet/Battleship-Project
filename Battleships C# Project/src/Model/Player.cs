@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 using System.Diagnostics;
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// Player has its own _PlayerGrid, and can see an _EnemyGrid, it can also check if

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
 
-namespace battleship
+namespace MyGame
 {
 	public static class GameResources
 	{

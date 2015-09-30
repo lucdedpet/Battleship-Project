@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 using System.Diagnostics;
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// A Ship has all the details about itself. For example the shipname,

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 using System.Diagnostics;
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// The direction the ship can be oriented.

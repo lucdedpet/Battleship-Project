@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 using System.Diagnostics;
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// The SeaGridAdapter allows for the change in a sea grid view. Whenever a ship is

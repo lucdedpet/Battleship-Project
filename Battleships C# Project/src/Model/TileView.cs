@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 using System.Diagnostics;
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// The values that are visable for a given tile.

@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
-//using battleship;
+//using MyGame;
 //using GameController;
 //using GameResources;
 //using DeploymentController;
@@ -14,7 +14,7 @@ using SwinGameSDK;
 //using MenuController;
 //using HighScoreController;
 
-namespace battleship
+namespace MyGame
 {
 	
 	/// <summary>
