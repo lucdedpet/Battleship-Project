@@ -1,14 +1,23 @@
+
 using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
 using System.Diagnostics;
 using SwinGameSDK;
+using MyGame;
+//using GameController;
+//using UtilityFunctions;
+//using GameResources;
+//using DeploymentController;
+//using DiscoveryController;
+//using EndingGameController;
+//using MenuController;
+//using HighScoreController;
 
-namespace battleship
+namespace MyGame
 {
-	static class GameLogic
+	public class GameMain
 	{
 		public static void Main(string[] args)
 		{

@@ -1,0 +1,29 @@
+Meeting Agenda
+Date/Location: 09-Sep-2015 at 15:30 in EN310
+Information Updates/Reminders
+=============================
+* Last week was about converting and documenting the code
+
+* This week we will use a sprint process over two weeks to fixbugs and extend the project. 
+  (No bug fixing or extensions yet!)
+
+* Help from an external consultant has been provided to help get the code converted and working if that was not done.
+
+* Everyone should have used toggl.com to track their time last week. Also track time on tasks this week with Toggl.
+
+* Tutor must be added to GitHub, Trello and Toggl.
+
+* Slack will be used to show the changes in the Trello board during the sprint of activity
+
+* The Programming Help Desk ATC620 is *still* available to help us with programming for this unit.
+
+Decisions Needed
+================
+
+* Daily Scrum meetings are not viable, since group members work on weekdays and are otherwise preoccupied
+
+
+General Items
+=============
+
+* Project Backlog tasks for Trello

@@ -3,10 +3,10 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
+
 using System.Diagnostics;
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// A Ship has all the details about itself. For example the shipname,
@@ -83,7 +83,7 @@ namespace battleship
 			_tiles = new List<Tile>();
 
 			//gets the ship size from the enumarator
-			_sizeOfShip = _shipName;
+			_sizeOfShip = (int)_shipName;
 		}
 
 		/// <summary>

@@ -1,12 +1,11 @@
-
 using Microsoft.VisualBasic;
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
 using System.Diagnostics;
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// The GameStates represent the state of the Battleships game play.
@@ -54,6 +53,11 @@ namespace battleship
 		/// <summary>
 		/// The player has quit. Show ending credits and terminate the game
 		/// </summary>
-		Quitting
+		Quitting,
+
+		/// <summary>
+		/// The turning off sound option.
+		/// </summary>
+		TurningOffSound
 	}
 }

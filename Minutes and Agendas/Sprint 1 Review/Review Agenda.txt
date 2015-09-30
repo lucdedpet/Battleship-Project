@@ -1,0 +1,21 @@
+Meeting Agenda
+Date/Location: 30-Sep-2015 at 16:30 in EN310
+Information Updates/Reminders
+=============================
+Sprint 1 is over and sprint 2 has begun
+
+Add suggestions made by tutor
+
+Decisions Needed
+================
+Sprint 1 overview
+
+Revised backlog for sprint 2
+
+General Items
+=============
+Feature: Restart current game button
+
+Feature: High score saving
+
+List of improvements from sprint 1 for sprint 2

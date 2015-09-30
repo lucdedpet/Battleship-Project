@@ -3,11 +3,10 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
 using System.Diagnostics;
 using SwinGameSDK;
 
-namespace battleship
+namespace MyGame
 {
 	public static class GameResources
 	{
@@ -33,6 +32,7 @@ namespace battleship
 			NewImage("SelectedShip", "deploy_button_hl.png");
 			NewImage("PlayButton", "deploy_play_button.png");
 			NewImage("RandomButton", "deploy_randomize_button.png");
+			NewImage("SoundButton", "sound_icon.png");
 
 			//Ships
 			int i = 0;
@@ -269,7 +269,11 @@ namespace battleship
 
 		private static void FreeFonts()
 		{
+<<<<<<< HEAD
 			//Font obj = default(Font);
+=======
+			
+>>>>>>> cs-convert
 			foreach ( Font obj in _Fonts.Values) {
 				SwinGame.FreeFont(obj);
 			}
@@ -277,7 +281,10 @@ namespace battleship
 
 		private static void FreeImages()
 		{
+<<<<<<< HEAD
 			//Bitmap obj = default(Bitmap);
+=======
+>>>>>>> cs-convert
 			foreach (Bitmap obj in _Images.Values) {
 				SwinGame.FreeBitmap(obj);
 			}
@@ -285,16 +292,26 @@ namespace battleship
 
 		private static void FreeSounds()
 		{
+<<<<<<< HEAD
 			//SoundEffect obj = default(SoundEffect);
 			foreach ( SoundEffect obj in _Sounds.Values) {
+=======
+            foreach (SoundEffect obj in _Sounds.Values)
+            {
+>>>>>>> cs-convert
 				Audio.FreeSoundEffect(obj);
 			}
 		}
 
 		private static void FreeMusic()
 		{
+<<<<<<< HEAD
 			//Music obj = default(Music);
 			foreach (Music obj in _Music.Values) {
+=======
+             foreach (Music obj in _Music.Values)
+             {
+>>>>>>> cs-convert
 				Audio.FreeMusic(obj);
 			}
 		}

@@ -3,11 +3,11 @@ using Microsoft.VisualBasic;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Data;
+
 using System.Diagnostics;
 using SwinGameSDK;
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// The AIPlayer is a type of player. It can readomly deploy ships, it also has the
@@ -120,7 +120,11 @@ namespace battleship
 				//take shot
 				ProcessShot(row, column, result);
 			} while (result.Value != ResultOfAttack.Miss && result.Value != ResultOfAttack.GameOver && !SwinGame.WindowCloseRequested());
+<<<<<<< HEAD
 
+=======
+		//	while (result.Value != ResultOfAttack.Miss && result.Value != ResultOfAttack.GameOver && !SwinGame.WindowCloseRequested());
+>>>>>>> cs-convert
 			return result;
 		}
 
@@ -135,7 +139,7 @@ namespace battleship
 				if (SwinGame.WindowCloseRequested())
 					return;
 
-				SwinGame.Delay(5);
+				SwinGame.Delay(1);
 				SwinGame.ProcessEvents();
 				SwinGame.RefreshScreen();
 			}

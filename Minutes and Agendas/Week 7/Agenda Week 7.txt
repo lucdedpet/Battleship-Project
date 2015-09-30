@@ -1,0 +1,16 @@
+Meeting Agenda
+Date/Location: 28-Sep-2015 at 13:30 in 1I 
+Information Updates/Reminders
+=============================
+Pick a card (Bug) from Trello and finish it before Wednesday
+
+The group has fallen 1 week behind schedule
+
+
+Decisions Needed
+================
+Postpone fixing crashing bugs and features, focus on gameplay bugs
+
+General Items
+=============
+Progress on Trello cards as of Monday meeting
