@@ -1,0 +1,13 @@
+Date/Location: 30-Sep-2015, EN310
+Attendees: LDP, JPG, SJB
+Start Time: 16.30
+End Time: 17.30
+
+Sprint 1 Overview
+=========
+Lack of communication (Contact details in README file on Github project 'cs-convert' branch, 
+soon to be merged with master)
+
+Actions
+=======
+Lucien: In charge of meetings, booking meeting rooms, notifying group members, taking minutes and writing agendas
