@@ -5,9 +5,14 @@ End Time: 17.30
 
 Sprint 1 Overview
 =========
-Lack of communication (Contact details in README file on Github project 'cs-convert' branch, 
-soon to be merged with master)
+Lack of communication (Contact details in README file on Github project 'master' branch)
+
+Self assigning tasks on Trello, with estimate
 
 Actions
 =======
 Lucien: In charge of meetings, booking meeting rooms, notifying group members, taking minutes and writing agendas
+
+Catch up with work from Sprint 1
+
+Revised backlog
