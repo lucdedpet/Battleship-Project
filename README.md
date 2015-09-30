@@ -14,6 +14,4 @@ These words should be added at the beginning of the commit message followed by a
 - ADD, added a new feature
 - UPDATE, improved an already existing feature (that wasn't broken)
 
-# Compile and Run
-Swingame that is being used is the command line version, it will not work directly with an IDE. The program can be edited in an IDE, but to build and run, the build.sh and run.sh files need to be run from the command line.
 
