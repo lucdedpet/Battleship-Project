@@ -6,7 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
-//using battleship;
+//using MyGame;
 //using GameController;
 //using UtilityFunctions;
 //using GameResources;
@@ -15,7 +15,7 @@ using SwinGameSDK;
 //using MenuController;
 //using HighScoreController;
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// The DeploymentController controls the players actions

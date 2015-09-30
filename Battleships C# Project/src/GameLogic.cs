@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
-using battleship;
+using MyGame;
 //using GameController;
 //using UtilityFunctions;
 //using GameResources;
@@ -15,9 +15,9 @@ using battleship;
 //using MenuController;
 //using HighScoreController;
 
-namespace battleship
+namespace MyGame
 {
-	static class GameLogic
+	public class GameMain
 	{
 		public static void Main(string[] args)
 		{

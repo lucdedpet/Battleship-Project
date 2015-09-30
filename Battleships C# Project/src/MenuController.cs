@@ -5,7 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
-//using battleship;
+//using MyGame;
 //using GameController;
 //using UtilityFunctions;
 //using GameResources;
@@ -14,7 +14,7 @@ using SwinGameSDK;
 //using EndingGameController;
 //using HighScoreController;
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// The menu controller handles the drawing and user interactions
@@ -293,14 +293,14 @@ namespace battleship
 		private static void PerformSetupMenuAction(int button)
 		{
 			switch (button) {
-				case SETUP_MENU_EASY_BUTTON: 
-				GameController.SetDifficulty(AIOption.Easy);
+				case SETUP_MENU_EASY_BUTTON:
+                    GameController.SetDifficulty(AIOption.Easy);
 					break;
 				case SETUP_MENU_MEDIUM_BUTTON:
 				GameController.SetDifficulty(AIOption.Medium);
 					break;
 				case SETUP_MENU_HARD_BUTTON:
-					GameController.SetDifficulty(AIOption.Hard);
+                    GameController.SetDifficulty(AIOption.Medium);
 					break;
 			}
 			//Always end state - handles exit button as well

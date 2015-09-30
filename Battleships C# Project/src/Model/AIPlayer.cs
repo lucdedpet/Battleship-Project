@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using SwinGameSDK;
 
-namespace battleship
+namespace MyGame
 {
 	/// <summary>
 	/// The AIPlayer is a type of player. It can readomly deploy ships, it also has the
