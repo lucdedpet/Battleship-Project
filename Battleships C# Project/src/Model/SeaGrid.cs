@@ -107,8 +107,16 @@ namespace MyGame
 		public void MoveShip(int row, int col, ShipName ship, Direction direction)
 		{
 			Ship newShip = _Ships[ship];
-			newShip.Remove();
-			AddShip(row, col, direction, newShip);
+            try
+            {
+                newShip.Remove();
+                AddShip(row, col, direction, newShip);
+            }
+            catch (Exception e)
+            {
+                AddShip(newShip.Row, newShip.Column, newShip.Direction, newShip);
+                throw new ApplicationException(e.Message);
+            }
 		}
 
 		/// <summary>
