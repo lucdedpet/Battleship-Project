@@ -129,3 +129,4 @@ E:\OneDrive\ProgrammingTemp\Battleship-Project\Battleships C# Project\bin\Debug\
 E:\OneDrive\ProgrammingTemp\Battleship-Project\Battleships C# Project\bin\Debug\MyGame.pdb
 E:\OneDrive\ProgrammingTemp\Battleship-Project\Battleships C# Project\bin\Debug\SwinGame.dll
 E:\OneDrive\ProgrammingTemp\Battleship-Project\Battleships C# Project\obj\x86\Debug\MyGame.csprojResolveAssemblyReference.cache
+D:\UNI\GIT_FOLDER\Battleship-Project\Battleships C# Project\obj\x86\Debug\MyGame.csprojResolveAssemblyReference.cache
