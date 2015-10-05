@@ -52,20 +52,12 @@ namespace MyGame
 			int row = 0;
 			int col = 0;
 			row = Convert.ToInt32(Math.Floor((mouse.Y - UtilityFunctions.FIELD_TOP) / (UtilityFunctions.CELL_HEIGHT + UtilityFunctions.CELL_GAP)));
-<<<<<<< HEAD
-			col = Convert.ToInt32(Math.Floor((mouse.X - UtilityFunctions.FIELD_LEFT) / (UtilityFunctions.CELL_WIDTH + UtilityFunctions.CELL_GAP)));
-
-			if (row >= 0 & row < GameController.HumanPlayer.EnemyGrid.Height) {
-				if (col >= 0 & col < GameController.HumanPlayer.EnemyGrid.Width) {
-                    GameController.Attack(row, col);
-=======
             col = Convert.ToInt32(Math.Floor((mouse.X - UtilityFunctions.FIELD_LEFT) / (UtilityFunctions.CELL_WIDTH + UtilityFunctions.CELL_GAP)));
 
 			if (row >= 0 & row < GameController.HumanPlayer.EnemyGrid.Height) {
                 if (col >= 0 & col < GameController.HumanPlayer.EnemyGrid.Width)
                 {
 					GameController.Attack(row, col);
->>>>>>> cs-convert
 				}
 			}
 		}
@@ -81,29 +73,17 @@ namespace MyGame
 			const int SPLASH_TOP = 256;
 
 			if ((SwinGame.KeyDown(KeyCode.vk_LSHIFT) | SwinGame.KeyDown(KeyCode.vk_RSHIFT)) & SwinGame.KeyDown(KeyCode.vk_c)) {
-<<<<<<< HEAD
-				UtilityFunctions.DrawField(GameController.HumanPlayer.EnemyGrid, GameController.ComputerPlayer, true);
-=======
                 UtilityFunctions.DrawField(GameController.HumanPlayer.EnemyGrid, GameController.ComputerPlayer, true);
->>>>>>> cs-convert
 			} else {
                 UtilityFunctions.DrawField(GameController.HumanPlayer.EnemyGrid, GameController.ComputerPlayer, false);
 			}
 
             UtilityFunctions.DrawSmallField(GameController.HumanPlayer.PlayerGrid, GameController.HumanPlayer);
-<<<<<<< HEAD
-            UtilityFunctions.DrawMessage();
-
-			SwinGame.DrawText(GameController.HumanPlayer.Shots.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SHOTS_TOP);
-			SwinGame.DrawText(GameController.HumanPlayer.Hits.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, HITS_TOP);
-			SwinGame.DrawText(GameController.HumanPlayer.Missed.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SPLASH_TOP);
-=======
 			UtilityFunctions.DrawMessage();
 
             SwinGame.DrawText(GameController.HumanPlayer.Shots.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SHOTS_TOP);
             SwinGame.DrawText(GameController.HumanPlayer.Hits.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, HITS_TOP);
             SwinGame.DrawText(GameController.HumanPlayer.Missed.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SPLASH_TOP);
->>>>>>> cs-convert
 		}
 
 	}

@@ -269,11 +269,7 @@ namespace MyGame
 
 		private static void FreeFonts()
 		{
-<<<<<<< HEAD
-			//Font obj = default(Font);
-=======
 			
->>>>>>> cs-convert
 			foreach ( Font obj in _Fonts.Values) {
 				SwinGame.FreeFont(obj);
 			}
@@ -281,10 +277,6 @@ namespace MyGame
 
 		private static void FreeImages()
 		{
-<<<<<<< HEAD
-			//Bitmap obj = default(Bitmap);
-=======
->>>>>>> cs-convert
 			foreach (Bitmap obj in _Images.Values) {
 				SwinGame.FreeBitmap(obj);
 			}
@@ -292,26 +284,16 @@ namespace MyGame
 
 		private static void FreeSounds()
 		{
-<<<<<<< HEAD
-			//SoundEffect obj = default(SoundEffect);
-			foreach ( SoundEffect obj in _Sounds.Values) {
-=======
             foreach (SoundEffect obj in _Sounds.Values)
             {
->>>>>>> cs-convert
 				Audio.FreeSoundEffect(obj);
 			}
 		}
 
 		private static void FreeMusic()
 		{
-<<<<<<< HEAD
-			//Music obj = default(Music);
-			foreach (Music obj in _Music.Values) {
-=======
              foreach (Music obj in _Music.Values)
              {
->>>>>>> cs-convert
 				Audio.FreeMusic(obj);
 			}
 		}
