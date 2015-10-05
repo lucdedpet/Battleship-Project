@@ -1,0 +1,18 @@
+Date/Location: 05-Oct-2015, 1D
+Attendees: SJB, LDP
+Start Time: 13:30
+End Time: 14:30
+
+Decisions
+=========
+If a lack of communication is noticed throughout Sprint 2, Bao Vo will be notified in regards to the matter
+
+Actions
+=======
+James/Adeel: Communicate with either Lucien or Sam on meeting attendance
+
+Sam/Lucien: Fix merge conflicts in 'cs-convert' and 'master' branches
+
+Sam: Fix bug 2.1
+
+Lucien: Add feature 10

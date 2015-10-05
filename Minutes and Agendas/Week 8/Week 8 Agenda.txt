@@ -1,0 +1,16 @@
+Meeting Agenda
+Date/Location: 05-Oct-2015 at 13:30 in 1D
+Information Updates/Reminders
+=============================
+Group members are encouraged to communicate with others, as it is one of the aspects the group
+is trying to improve on since Sprint 1
+
+Decisions Needed
+================
+Potential lack of communication in Sprint 2
+
+General Items
+=============
+Work that has been completed since last week's lab
+
+Improvement in communication between group members
