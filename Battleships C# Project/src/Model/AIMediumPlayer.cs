@@ -54,7 +54,11 @@ namespace MyGame
 					default:
 						throw new ApplicationException("AI has gone in an imvalid state");
 				}
+<<<<<<< HEAD
+			} while ((row < 0 || column < 0 || row >= EnemyGrid.Height || column >= EnemyGrid.Width || EnemyGrid.Item != TileView.Sea));
+=======
 			} while ((row < 0 || column < 0 || row >= EnemyGrid.Height || column >= EnemyGrid.Width || EnemyGrid[row, column] != TileView.Sea));
+>>>>>>> cs-convert
 			//while inside the grid and not a sea tile do the search
 		}
 
@@ -115,7 +119,11 @@ namespace MyGame
 		private void AddTarget(int row, int column)
 		{
 
+<<<<<<< HEAD
+			if (row >= 0 && column >= 0 && row < EnemyGrid.Height && column < EnemyGrid.Width && EnemyGrid.Item == TileView.Sea) {
+=======
 			if (row >= 0 && column >= 0 && row < EnemyGrid.Height && column < EnemyGrid.Width && EnemyGrid[row, column] == TileView.Sea) {
+>>>>>>> cs-convert
 				_Targets.Push(new Location(row, column));
 			}
 		}
