@@ -61,7 +61,12 @@ namespace MyGame
 			get { return _ai; }
 		}
 
+<<<<<<< HEAD
+        /*
+		public GameController()
+=======
 		static GameController()
+>>>>>>> cs-convert
 		{
 			//bottom state will be quitting. If player exits main menu then the game is over
 			_state.Push(GameState.Quitting);
@@ -69,6 +74,7 @@ namespace MyGame
 			//at the start the player is viewing the main menu
 			_state.Push(GameState.ViewingMainMenu);
 		}
+        */
 
 		/// <summary>
 		/// Starts a new game.
@@ -149,7 +155,11 @@ namespace MyGame
 				UtilityFunctions.AddSplash(row, column);
 			}
 
+<<<<<<< HEAD
+			Audio.PlaySoundEffect(GameResources.GameSound("Miss"));
+=======
             Audio.PlaySoundEffect(GameResources.GameSound("Miss"));
+>>>>>>> cs-convert
 
             UtilityFunctions.DrawAnimationSequence();
 		}
@@ -170,7 +180,11 @@ namespace MyGame
 			if (isHuman) {
 				UtilityFunctions.Message = "You " + result.ToString();
 			} else {
+<<<<<<< HEAD
+				UtilityFunctions.Message = "The AI " + result.ToString();
+=======
                 UtilityFunctions.Message = "The AI " + result.ToString();
+>>>>>>> cs-convert
 			}
 
 			switch (result.Value) {
@@ -181,18 +195,30 @@ namespace MyGame
 					break;
 				case ResultOfAttack.GameOver:
 					PlayHitSequence(result.Row, result.Column, isHuman);
+<<<<<<< HEAD
+					Audio.PlaySoundEffect(GameResources.GameSound("Sink"));
+
+					while (Audio.SoundEffectPlaying(GameResources.GameSound("Sink"))) {
+=======
                     Audio.PlaySoundEffect(GameResources.GameSound("Sink"));
 
                     while (Audio.SoundEffectPlaying(GameResources.GameSound("Sink")))
                     {
+>>>>>>> cs-convert
 						SwinGame.Delay(10);
 						SwinGame.RefreshScreen();
 					}
 
 					if (HumanPlayer.IsDestroyed) {
+<<<<<<< HEAD
+						Audio.PlaySoundEffect(GameResources.GameSound("Lose"));
+					} else {
+						Audio.PlaySoundEffect(GameResources.GameSound("Winner"));
+=======
                         Audio.PlaySoundEffect(GameResources.GameSound("Lose"));
 					} else {
                         Audio.PlaySoundEffect(GameResources.GameSound("Winner"));
+>>>>>>> cs-convert
 					}
 
 					break;
@@ -203,7 +229,11 @@ namespace MyGame
 					PlayMissSequence(result.Row, result.Column, isHuman);
 					break;
 				case ResultOfAttack.ShotAlready:
+<<<<<<< HEAD
+					Audio.PlaySoundEffect(GameResources.GameSound("Error"));
+=======
                     Audio.PlaySoundEffect(GameResources.GameSound("Error"));
+>>>>>>> cs-convert
 					break;
 			}
 		}
@@ -289,12 +319,28 @@ namespace MyGame
 
 			switch (CurrentState) {
 				case GameState.ViewingMainMenu:
+<<<<<<< HEAD
+                    MenuController.HandleMainMenuInput();
+=======
 					MenuController.HandleMainMenuInput();
+>>>>>>> cs-convert
 					break;
 				case GameState.ViewingGameMenu:
                     MenuController.HandleGameMenuInput();
 					break;
 				case GameState.AlteringSettings:
+<<<<<<< HEAD
+					MenuController.HandleSetupMenuInput();
+					break;
+				case GameState.Deploying:
+					DeploymentController.HandleDeploymentInput();
+					break;
+				case GameState.Discovering:
+					DiscoveryController.HandleDiscoveryInput();
+					break;
+				case GameState.EndingGame:
+					EndingGameController.HandleEndOfGameInput();
+=======
                     MenuController.HandleSetupMenuInput();
 					break;
 				case GameState.Deploying:
@@ -305,6 +351,7 @@ namespace MyGame
 					break;
 				case GameState.EndingGame:
                     EndingGameController.HandleEndOfGameInput();
+>>>>>>> cs-convert
 					break;
 				case GameState.ViewingHighScores:
 					HighScoreController.HandleHighScoreInput();
@@ -322,7 +369,11 @@ namespace MyGame
 		/// </remarks>
 		public static void DrawScreen()
 		{
+<<<<<<< HEAD
+			UtilityFunctions.DrawBackground();
+=======
             UtilityFunctions.DrawBackground();
+>>>>>>> cs-convert
 
 			switch (CurrentState) {
 				case GameState.ViewingMainMenu:
@@ -348,7 +399,11 @@ namespace MyGame
 					break;
 			}
 
+<<<<<<< HEAD
+			UtilityFunctions.DrawAnimations();
+=======
             UtilityFunctions.DrawAnimations();
+>>>>>>> cs-convert
 
 			SwinGame.RefreshScreen();
 		}
@@ -361,7 +416,11 @@ namespace MyGame
 		public static void AddNewState(GameState state)
 		{
 			_state.Push(state);
+<<<<<<< HEAD
+			UtilityFunctions.Message = "";
+=======
             UtilityFunctions.Message = "";
+>>>>>>> cs-convert
 		}
 
 		/// <summary>

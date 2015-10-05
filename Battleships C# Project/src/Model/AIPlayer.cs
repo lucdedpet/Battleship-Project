@@ -120,7 +120,11 @@ namespace MyGame
 				//take shot
 				ProcessShot(row, column, result);
 			} while (result.Value != ResultOfAttack.Miss && result.Value != ResultOfAttack.GameOver && !SwinGame.WindowCloseRequested());
+<<<<<<< HEAD
+
+=======
 		//	while (result.Value != ResultOfAttack.Miss && result.Value != ResultOfAttack.GameOver && !SwinGame.WindowCloseRequested());
+>>>>>>> cs-convert
 			return result;
 		}
 
