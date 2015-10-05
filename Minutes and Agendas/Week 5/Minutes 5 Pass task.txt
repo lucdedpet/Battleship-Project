@@ -1,0 +1,18 @@
+Date/Location: 02-09-2015, EN310
+Attendees: LDP SJB ENS JPG
+Start Time: 16:28
+:End Time: 17:15
+
+Decisions
+=========
+* Telerik Code Converter. Will be used.
+* MSDN Coding Standard for C#
+
+Actions
+=======
+* Code need to be converted.
+* Get SwinGame files for C# from swingame webside
+* Check Converted Code for errors
+* error will be put on indervidual cars on trello, members will self assign to cards
+* Communication throu slack
+* Meeting on Monday 12.30
