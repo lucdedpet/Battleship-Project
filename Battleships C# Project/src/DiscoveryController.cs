@@ -20,21 +20,25 @@ namespace MyGame
 	/// </summary>
 	static class DiscoveryController
 	{
+        private const int RESET_BUTTON_X = 250;
+        private const int RESET_BUTTON_Y = 72;
+        private const int RESET_BUTTON_WIDTH = 30;
 
-		/// <summary>
-		/// Handles input during the discovery phase of the game.
-		/// </summary>
-		/// <remarks>
-		/// Escape opens the game menu. Clicking the mouse will
-		/// attack a location.
-		/// </remarks>
-		public static void HandleDiscoveryInput()
+        /// <summary>
+        /// Handles input during the discovery phase of the game.
+        /// </summary>
+        /// <remarks>
+        /// Escape opens the game menu. Clicking the mouse will
+        /// attack a location.
+        /// </remarks>
+        public static void HandleDiscoveryInput()
 		{
 			if (SwinGame.KeyTyped(KeyCode.vk_ESCAPE)) {
 				GameController.AddNewState(GameState.ViewingGameMenu);
 			}
 
 			if (SwinGame.MouseClicked(MouseButton.LeftButton)) {
+                ResetDiscovery();
 				DoAttack();
 			}
 		}
@@ -84,7 +88,25 @@ namespace MyGame
             SwinGame.DrawText(GameController.HumanPlayer.Shots.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SHOTS_TOP);
             SwinGame.DrawText(GameController.HumanPlayer.Hits.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, HITS_TOP);
             SwinGame.DrawText(GameController.HumanPlayer.Missed.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SPLASH_TOP);
+
+            SwinGame.DrawBitmap(GameResources.GameImage("ResetButton"), RESET_BUTTON_X, RESET_BUTTON_Y);
 		}
 
+        /// <summary>
+		/// Redraws the current game from the beggining
+		/// </summary>s
+        private static void ResetDiscovery()
+        {
+            Point2D mouse = default(Point2D);
+            mouse = SwinGame.MousePosition();
+
+            if ( (mouse.X > RESET_BUTTON_X) && (mouse.X < (RESET_BUTTON_X + RESET_BUTTON_WIDTH)) )
+            {
+                if( (mouse.Y > RESET_BUTTON_Y) && (mouse.Y < (RESET_BUTTON_Y + RESET_BUTTON_WIDTH)) )
+                {
+                    GameController.AddNewState(GameState.ViewingGameMenu);
+                }
+            }
+        }
 	}
 }
