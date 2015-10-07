@@ -1,0 +1,20 @@
+Meeting Agenda
+Date/Location: 7-Oct-2015 at 16:30 in EN310
+Information Updates/Reminders
+=============================
+Communicate
+
+Fix/add assigned sprint bugs/features in Sprint Backlog
+
+Decisions Needed
+================
+Finish Sprint Backlog cards by Monday 12/10/2015 12.30PM
+
+Branch off 'master'
+
+General Items
+=============
+Remaining in Sprint Backlog:
+	- #4 BUG
+	- #5.1 BUG
+	- #10 FEATURE

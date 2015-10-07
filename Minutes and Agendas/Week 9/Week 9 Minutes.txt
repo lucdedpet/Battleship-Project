@@ -1,0 +1,18 @@
+Date/Location: 7-Oct-2015, EN310
+Attendees: SJB, ANS, JPG, LDP
+Start Time: 16.30
+End Time: 17.30
+
+Decisions
+=========
+Everyone is required to branch off of 'master' and not 'cs-convert'
+
+NOTE: Do not work directly off 'master'
+
+Actions
+=======
+Adeel: Fix bugs 4 and 5.1
+
+Lucien: Add feature 10
+
+Sam/James: Provide help on request
