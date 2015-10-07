@@ -30,6 +30,7 @@ namespace MyGame
 			SwinGame.PlayMusic(GameResources.GameMusic("Background"));
             GameController.setAiDifficultyText("Hard");
 
+
 			//Game Loop
 			do {
 				GameController.HandleUserInput();
