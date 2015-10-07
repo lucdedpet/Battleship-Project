@@ -50,6 +50,10 @@ namespace MyGame
 			}
 
 		};
+
+        private const int AI_TOP = 30;
+        private const int AI_LEFT = 700;
+
 		private const int MENU_TOP = 575;
 		private const int MENU_LEFT = 30;
 		private const int MENU_GAP = 0;
@@ -295,12 +299,15 @@ namespace MyGame
 			switch (button) {
 				case SETUP_MENU_EASY_BUTTON:
                     GameController.SetDifficulty(AIOption.Easy);
+                    GameController.setAiDifficultyText("Easy");
 					break;
 				case SETUP_MENU_MEDIUM_BUTTON:
 				GameController.SetDifficulty(AIOption.Medium);
+                GameController.setAiDifficultyText("Medium");
 					break;
 				case SETUP_MENU_HARD_BUTTON:
                     GameController.SetDifficulty(AIOption.Medium);
+                    GameController.setAiDifficultyText("Hard");
 					break;
 			}
 			//Always end state - handles exit button as well

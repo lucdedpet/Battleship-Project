@@ -240,12 +240,13 @@ namespace MyGame
 
 		public static void DrawBackground()
 		{
-			switch (GameController.CurrentState) {
+            switch (GameController.CurrentState) {
 				case GameState.ViewingMainMenu:
 				case GameState.ViewingGameMenu:
 				case GameState.AlteringSettings:
 				case GameState.ViewingHighScores:
 					SwinGame.DrawBitmap(GameResources.GameImage("Menu"), 0, 0);
+                    SwinGame.DrawText("Difficulty: " + GameController.getAiDifficultyText(), Color.Yellow, 600, 30);
 					break;
 				case GameState.Discovering:
 				case GameState.EndingGame:

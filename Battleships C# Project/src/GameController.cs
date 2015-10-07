@@ -25,6 +25,8 @@ namespace MyGame
 	public static class GameController
 	{
 
+        private static String _aiText;
+
 		private static BattleShipsGame _theGame;
 		private static Player _human;
 
@@ -88,16 +90,20 @@ namespace MyGame
 			switch (_aiSetting) {
                 case AIOption.Easy:
                     _ai = new AIEasyPlayer(_theGame);
+                    setAiDifficultyText("Easy");
                     break;
 				case AIOption.Medium:
 					_ai = new AIMediumPlayer(_theGame);
-					break;
+                    setAiDifficultyText("Medium");
+                    break;
 				case AIOption.Hard:
 					_ai = new AIHardPlayer(_theGame);
-					break;
+                    setAiDifficultyText("Hard");
+                    break;
 				default:
 					_ai = new AIHardPlayer(_theGame);
-					break;
+                    setAiDifficultyText("Hard");
+                    break;
 			}
 
 			_human = new Player(_theGame);
@@ -108,6 +114,15 @@ namespace MyGame
 
 			AddNewState(GameState.Deploying);
 		}
+
+        public static void setAiDifficultyText(String ai)
+        {
+            _aiText = ai;
+        }
+        public static String getAiDifficultyText()
+        {
+            return _aiText;
+        }
 
 		/// <summary>
 		/// Stops listening to the old game once a new game is started
@@ -323,7 +338,7 @@ namespace MyGame
 		public static void DrawScreen()
 		{
             UtilityFunctions.DrawBackground();
-
+            
 			switch (CurrentState) {
 				case GameState.ViewingMainMenu:
 					MenuController.DrawMainMenu();

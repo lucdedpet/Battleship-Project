@@ -28,6 +28,7 @@ namespace MyGame
 			GameResources.LoadResources();
 
 			SwinGame.PlayMusic(GameResources.GameMusic("Background"));
+            GameController.setAiDifficultyText("Hard");
 
 			//Game Loop
 			do {
