@@ -22,7 +22,8 @@ namespace MyGame
 	{
         private const int RESET_BUTTON_X = 250;
         private const int RESET_BUTTON_Y = 72;
-        private const int RESET_BUTTON_WIDTH = 30;
+        private const int RESET_BUTTON_WIDTH = 51;
+        private const int RESET_BUTTON_HEIGHT = 46;
 
         /// <summary>
         /// Handles input during the discovery phase of the game.
@@ -38,7 +39,7 @@ namespace MyGame
 			}
 
 			if (SwinGame.MouseClicked(MouseButton.LeftButton)) {
-                ResetDiscovery();
+                //ResetDiscovery();
 				DoAttack();
 			}
 		}
@@ -90,22 +91,23 @@ namespace MyGame
             SwinGame.DrawText(GameController.HumanPlayer.Missed.ToString(), Color.White, GameResources.GameFont("Menu"), SCORES_LEFT, SPLASH_TOP);
 
             SwinGame.DrawBitmap(GameResources.GameImage("ResetButton"), RESET_BUTTON_X, RESET_BUTTON_Y);
-		}
+
+            if ((SwinGame.MouseClicked(MouseButton.LeftButton)) && (UtilityFunctions.IsMouseInRectangle(RESET_BUTTON_X, RESET_BUTTON_Y, RESET_BUTTON_WIDTH, RESET_BUTTON_WIDTH)))
+            {
+                //GameController.SwitchState(GameState.Discovering);
+                GameController.AddNewState(GameState.ViewingGameMenu);
+
+            }
+        }
 
         /// <summary>
 		/// Redraws the current game from the beggining
 		/// </summary>s
         private static void ResetDiscovery()
         {
-            Point2D mouse = default(Point2D);
-            mouse = SwinGame.MousePosition();
-
-            if ( (mouse.X > RESET_BUTTON_X) && (mouse.X < (RESET_BUTTON_X + RESET_BUTTON_WIDTH)) )
+            if ( UtilityFunctions.IsMouseInRectangle(RESET_BUTTON_X, RESET_BUTTON_Y, RESET_BUTTON_WIDTH, RESET_BUTTON_WIDTH))
             {
-                if( (mouse.Y > RESET_BUTTON_Y) && (mouse.Y < (RESET_BUTTON_Y + RESET_BUTTON_WIDTH)) )
-                {
-                    GameController.AddNewState(GameState.ViewingGameMenu);
-                }
+                GameController.AddNewState(GameState.ViewingGameMenu);
             }
         }
 	}
