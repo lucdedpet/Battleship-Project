@@ -1,0 +1,17 @@
+Meeting Agenda
+Date/Location: 14-Oct-2015 at 16:33 in EN310
+Information Updates/Reminders
+=============================
+ Sprint 2 is officially over
+
+ Unit testing will commence this week
+
+Decisions Needed
+================
+ What unit tests should be written
+
+ How unit tests should be delegated within the group
+
+General Items
+=============
+ Create lists on Trello for unit test sprint
