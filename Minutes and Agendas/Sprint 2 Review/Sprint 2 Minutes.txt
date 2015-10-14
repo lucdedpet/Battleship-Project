@@ -1,11 +1,19 @@
 Date/Location: 7-Oct-2015, EN310
-Attendees: SJB, ANS, JPG, LDP
-Start Time: 16:15
+Attendees: ANS, JPG, LDP
+Start Time: 16:05
 End Time: 17:30
 
-Decisions
-=========
+What went well
+==============
+ * Sprint Backlog tasks were for the better part completed, apart from one which was postponed
+ 
+ * Work distribution was even across all team members
 
+Improvements needed
+===================
+ * Communication was improved slightly but still to not a satisfactory level
 
-Actions
-=======
+ * General participation in group meetings was lacking due to conflicts with extracurricular 
+   activities and unforeseen circumstances
+
+ * Self assignment to Trello tasks were delayed
