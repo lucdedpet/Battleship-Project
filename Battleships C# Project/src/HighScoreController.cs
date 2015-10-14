@@ -6,14 +6,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using SwinGameSDK;
-//using MyGame;
-//using GameController;
-//using UtilityFunctions;
-//using GameResources;
-//using DeploymentController;
-//using DiscoveryController;
-//using EndingGameController;
-//using MenuController;
 
 namespace MyGame
 {
@@ -186,9 +178,10 @@ namespace MyGame
                 GameController.AddNewState(GameState.ViewingHighScores);
 
 				int x = 0;
+
                 x = SCORES_LEFT + SwinGame.TextWidth(GameResources.GameFont("Courier"), "Name: ");
 
-                SwinGame.StartReadingText(Color.White, NAME_WIDTH, GameResources.GameFont("Courier"), x, ENTRY_TOP);
+                SwinGame.StartReadingText(Color.White,  4* NAME_WIDTH, GameResources.GameFont("Courier"), x, ENTRY_TOP);
 
 				//Read the text from the user
 				while (SwinGame.ReadingText()) {
@@ -205,7 +198,6 @@ namespace MyGame
 				if (s.Name.Length < 3) {
 					s.Name = s.Name + new string(Convert.ToChar(" "), 3 - s.Name.Length);
 				}
-
 				_Scores.RemoveAt(_Scores.Count - 1);
 				_Scores.Add(s);
 				_Scores.Sort();
