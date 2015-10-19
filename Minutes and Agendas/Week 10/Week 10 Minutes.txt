@@ -1,0 +1,16 @@
+Date/Location: 14-Oct-2015, EN310
+Attendees: ANS, JPG, LDP
+Start Time: 16:36
+End Time: 16:50
+
+Decisions
+=========
+ * Each member should write unit tests for 2 work items that they have completed during the past 2 Sprints
+  
+ * Members should self assign themselves to these tasks and add them to Trello, in the Unit Testing Backlog list
+
+ * Unit tests should be written using the NUnit test fixture
+
+Actions
+=======
+ Everyone: Pick 2 work items as outlined above and add the cards to Trello along with actually creating the unit tests
