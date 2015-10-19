@@ -1,0 +1,21 @@
+Date/Location: 19-Oct-2015, Lib 3C
+Attendees: ANS, SBG, LDP
+Start Time: 14:00
+End Time: 14:45
+
+Decisions
+=========
+* Task 11 is an individual task
+* Help will still be provided to group members, use Slack
+* Members should all branch off 'master' to their own individual branches (don't forget to upload to repo)
+* Members should pick 2 work items and create unit tests for those
+
+Actions
+=======
+Sam: Branch off 'master', unit tests for 5.2 BUG and 2.1 FEATURE
+
+Adeel: Branch off 'master', unit tests for 5.1 BUG and 4 BUG
+
+Lucien: Branch off 'master', unit tests for 2.2 BUG and 2.1 BUG
+
+James: Branch off 'master', unit tests for 3 BUG
